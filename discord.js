@@ -4,7 +4,6 @@ const token = process.env.DISCORD_BOT_SECRET
 const id = process.env.DISCORD_HEROKU_CHANNEL
 
 client.on('ready', () => {
-  sendHerokuDeploy("Hi, I'm alive")
 })
 
 function login() {
